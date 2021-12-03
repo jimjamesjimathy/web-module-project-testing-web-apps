@@ -3,7 +3,6 @@ import '@testing-library/jest-dom/extend-expect';
 import {render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import ContactForm from './ContactForm';
-import DisplayComponent from '../components/DisplayComponent';
 
 test('renders without errors', ()=>{
     render(<ContactForm />);
